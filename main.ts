@@ -56,7 +56,7 @@ animation.runImageAnimation(background, getProjectAnim("countdown"), 150, false)
 pause(10350)
 
 //@ts-ignore
-let captionText = fancyText.create("", 0, 12, fancyText.gothic_large) // Initial creation
+let captionText = fancyText.create("", 0, 12, fancyText.outline_medium) // Initial creation
 
 captionHide()
 animation.runImageAnimation(background, getProjectAnim("hello"), 100, true)
@@ -112,7 +112,7 @@ function caption(word: string) {
     //@ts-ignore
     captionText = fancyText.create(word)
     //@ts-ignore
-    fancyText.setFont(captionText, fancyText.gothic_large)
+    fancyText.setFont(captionText, fancyText.outline_medium)
     //@ts-ignore
     fancyText.setColor(captionText, 12)
     captionText.setPosition(120, 90)
